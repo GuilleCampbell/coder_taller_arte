@@ -45,6 +45,7 @@ body {
 footer {
     padding: 15px;
     background-color: black;
+    background-image: linear-gradient(to botton, rgb(78, 78, 78), black);
   }
   
   footer ul {
@@ -63,4 +64,23 @@ footer {
 .main_ceramica {
     width: 600px;
     height: 600px;
+    animation-name: escalar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+   
+}
+@keyframes escalar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+
 }
