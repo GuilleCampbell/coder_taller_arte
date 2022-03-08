@@ -21,6 +21,7 @@ body {
     align-items: center;
 }
 
+
 .navbar .logo {
     width: 60px;
     height: 60px;
@@ -59,11 +60,15 @@ footer {
   .carousel-inner {
       padding: auto;
       margin: auto;
+      display: flex;
+      justify-content: space-around;
   }
 
 .carousel-inner2 {
     padding: auto;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 
    
 }
