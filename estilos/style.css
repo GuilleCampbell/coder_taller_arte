@@ -56,31 +56,14 @@ footer {
     justify-content: space-around;
     
   }
-  .main {
+  .carousel-inner {
       padding: auto;
       margin: auto;
   }
 
-.main_ceramica {
-    width: 600px;
-    height: 600px;
-    animation-name: escalar;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
+.carousel-inner2 {
+    padding: auto;
+    margin: auto;
 
    
-}
-@keyframes escalar {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0.95);
-    }
-    100% {
-        transform: scale(1);
-    }
-
 }
