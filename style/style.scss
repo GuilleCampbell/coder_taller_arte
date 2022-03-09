@@ -1,68 +1,54 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-    background-color: gray;
-
-    
-}
-
-.navbar {
-    background-color: #edcb54;
-    display: grid;
-    align-items: center;
-}
+@import "generales"
+@import "nav";
 
 
-.navbar .logo {
-    width: 60px;
-    height: 60px;
-    grid-column: 2 / 3;
-}
+
+
+
+
+
+
 .navbar .menu {
     grid-column: 4 / 7;
     display: flex;
     justify-content: space-around;
 }
+
 .navbar .menu li {
     list-style: none;
 }
+
 .navbar .menu a {
     text-decoration: none;
     color: #181818;
     cursor: pointer;
 }
+
 .navbar .menu-bar {
     display: none;
 }
+
 footer {
     padding: 15px;
     background-color: black;
     background-image: linear-gradient(to botton, rgb(78, 78, 78), black);
-  }
-  
-  footer ul {
+}
+
+footer ul {
     color: white;
     font-size: 1.2rem;
     padding: 1em;
     display: flex;
     justify-content: space-around;
-    
-  }
-  .carousel-inner {
-      padding: auto;
-      margin: auto;
-      display: flex;
-      justify-content: space-around;
-  }
+
+}
+
+.carousel-inner {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
 .carousel-inner2 {
     padding: auto;
@@ -70,5 +56,6 @@ footer {
     display: flex;
     justify-content: space-around;
 
-   
+
 }
+
