@@ -55,6 +55,15 @@ footer ul {
 .cuerpo {
   background-color: #edcb54;
 }
+.parrafo1 {
+  font-size: xx-large;
+  text-align: center;
+}
+.parrafo2{
+  font-size: xx-large;
+  text-align: center;
+}
+
 
 
 @media (min-width: 1px) {

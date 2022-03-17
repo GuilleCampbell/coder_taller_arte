@@ -1,61 +1,8 @@
 @import "generales"
-@import "nav";
 
 
 
 
 
 
-
-
-.navbar .menu {
-    grid-column: 4 / 7;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar .menu li {
-    list-style: none;
-}
-
-.navbar .menu a {
-    text-decoration: none;
-    color: #181818;
-    cursor: pointer;
-}
-
-.navbar .menu-bar {
-    display: none;
-}
-
-footer {
-    padding: 15px;
-    background-color: black;
-    background-image: linear-gradient(to botton, rgb(78, 78, 78), black);
-}
-
-footer ul {
-    color: white;
-    font-size: 1.2rem;
-    padding: 1em;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.carousel-inner {
-    padding: auto;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.carousel-inner2 {
-    padding: auto;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-
-
-}
 
